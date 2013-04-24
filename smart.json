@@ -1,7 +1,7 @@
 {
-    "name": "aws-sdk-sync",
-    "description": "aws-sdk packaged for meteor.",
-    "homepage": "https://github.com/kidovate/meteor-ncp",
+    "name": "aws-sdk",
+    "description": "aws-sdk packaged for meteor 0.6.0+",
+    "homepage": "https://github.com/nate-strauser/meteor-aws-sdk",
     "author": "Nathan Strauser",
     "version": "0.1.0",
     "git": "https://github.com/nate-strauser/meteor-aws-sdk-sync.git",
