@@ -10,4 +10,4 @@ Package.on_use(function (api) {
     );
 
 });
-Npm.depends({'aws-sdk':"0.9.8-pre.9"});
+Npm.depends({'aws-sdk':"1.0.0"});
