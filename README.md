@@ -3,7 +3,7 @@ meteor-aws-sdk
 
 aws-sdk npm wrapped for meteor
 
-##works with meteor 0.6.2+
+##works with meteor 0.6.2+ (0.6.5 compatible)
 
 *example async*
 

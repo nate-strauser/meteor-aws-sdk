@@ -3,11 +3,12 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-    //api.use('jquery', 'client');
     api.add_files([
         'lib/aws-sdk.js'
     ], 'server'
     );
-
+    if (typeof api.export !== 'undefined') {
+		api.export("AWS", "server");
+	}
 });
-Npm.depends({'aws-sdk':"1.3.1"});
+Npm.depends({'aws-sdk':"1.5.0"});
